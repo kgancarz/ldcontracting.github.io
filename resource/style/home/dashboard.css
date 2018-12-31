@@ -153,9 +153,11 @@ body{
     color:#ffc89a;
 }
 .internalLink:visited{
+    font-size:medium;
     color:#ffc89a;
 }
 .internalLink:hover{
+    font-size:medium;
     color:#cc5c00;
 }
 .homeBlurb{
