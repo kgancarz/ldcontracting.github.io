@@ -72,6 +72,7 @@ input[type=submit]:hover {
     background-position-x: -85px;
 }
 body{
+    text-size-adjust: none;
     background-color:black;
     color:white;
     font-size:medium;
