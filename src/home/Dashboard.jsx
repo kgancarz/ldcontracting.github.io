@@ -68,7 +68,7 @@ class Dashboard extends Component {
 	}
 	getFooter(){
 		return <div className="footer"><div id="footerImage" style={{backgroundRepeat: "no-repeat",backgroundImage: 'url(resource/img/fire.gif)'}}/>
-			<a href="https://facebook.com/ldkiln"><img className="fblink" src='https://facebookbrand.com/wp-content/uploads/2016/05/flogo_rgb_hex-brc-site-250.png?w=20&h=20'/></a>
+			<a href="https://facebook.com/ldkiln"><img className="fblink" src='https://facebookbrand.com/wp-content/uploads/2016/05/flogo_rgb_hex-brc-site-250.png?w=40&h=40'/></a>
 		</div>
 	}
 	getContent(){
