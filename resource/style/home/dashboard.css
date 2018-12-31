@@ -1,0 +1,174 @@
+.navBar{
+    padding-top:5px;
+    padding-bottom:10px;
+}
+
+.navBar::after{
+    clear:both;
+    content:" ";
+    display:block;
+}
+.navButton{
+    font-size: 18px;
+    font-weight: bolder;
+    display:inline-block;
+    color: #ffc89a;
+    padding:10px;
+    border-radius:5px;
+}
+
+.navButton:hover{ 
+    background-color:#ffc89a;
+    color: black;
+    cursor:pointer;
+}
+
+.home{
+    padding-left:10px;
+    padding-right:10px;
+    max-width:450px;
+}
+
+.contactInfo{
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 8px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #cc5c00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #aa3c00;
+}
+.footer{
+    width:100%;
+    padding-top: 15px;
+    padding-bottom:10px;
+}
+#footerImage{    
+    border-radius: 50px;
+    height: 120px;
+    max-width: 400px;
+    background-position-y: -50px;
+    background-position-x: -85px;
+}
+
+body{
+    background-color:black;
+    color:white;
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+}
+
+.fblink{
+    padding-top:5px;
+}
+
+#logoimg{
+    margin-top:10px;
+    max-width: 300px;
+    width: 95%;
+}
+
+.sloganContainer{
+    padding-top:1.5px;
+}
+
+.sloganContainer::after{
+    clear:both;
+    content:" ";
+    display:block;
+}
+.slogan{
+    display:inline-block;
+}
+.sloganText{
+    display:inline-block;
+    font-size:10px;
+    color:#ffffff;
+
+}
+
+.products{
+    text-align:left;
+    font-size:10px;
+}
+
+.productName{
+    color:#ffc89a;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration: underline;
+}
+.divider {
+    display:inline-block;
+    border-left:0.5px solid #ffffff;
+    margin-left:5px;
+    margin-right:5px;
+    height:7px;
+}
+
+.productPrice{
+    cursor: pointer;
+    font-style:italic;
+    font-size:9px;
+    padding-top:5px;
+}
+
+.productPrice:hover{
+    text-decoration: underline;
+}
+
+.productDetails{
+    font-size:10px;
+    padding-top:5px;
+}
+
+.productInfo{
+    padding-top:5px;
+    text-align: left;
+}
+
+.internalLink{
+    text-decoration:underline;
+    cursor:pointer;
+    color:#ffc89a;
+}
+.internalLink:visited{
+    color:#ffc89a;
+}
+.internalLink:hover{
+    color:#cc5c00;
+}
+.homeBlurb{
+    text-align:left;
+    font-size:12px;
+}
+
+form{
+    margin-bottom:0px;
+}
+
+.homeImage{
+
+    max-width: 300px;
+    border-radius: 25px;
+    padding-bottom: 10px;s
+}
