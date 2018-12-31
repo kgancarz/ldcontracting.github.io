@@ -13,9 +13,9 @@ class Contact extends Component {
 		this.store = DataStore;
 	}
 	render() {
-		let em = this.state.contactEN;
+		let em = this.state.data.contactEN;
 		em+="@";
-		em += this.state.contactED;
+		em += this.state.data.contactED;
 		let url = 'https://formspree.io/'+em;
 		if(em.length==1){
 			return (<div/>);
