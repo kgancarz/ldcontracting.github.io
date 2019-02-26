@@ -30,13 +30,13 @@ class DataStore extends Store
                 {
                     title:"Seasoned Firewood",
                     description:"Premium, kiln-dried hardwood. Available year-round, kiln-dried firewood burns clean and lights easy, maximizing the heating potential of the wood!",
-                    info: "$350 cord, $225 face cord. Delivery included",
+                    info: "Call for Pricing.",
                     show:true
                 },
                 {
                     title:"Green Firewood",
                     description:"Premium hardwood, season it yourself and save!",
-                    info: "$205 cord. Delivery Included",
+                    info: "Call for Pricing.",
                     show:true
                 },
                 {
