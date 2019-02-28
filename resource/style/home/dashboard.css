@@ -33,6 +33,8 @@
 .contactInfo{
     padding-top:5px;
     padding-bottom:15px;
+    font-size: large;
+    font-weight: bold;
 }
 
 input[type=text], select, textarea {
@@ -77,6 +79,7 @@ body{
     color:white;
     font-size:medium;
     font-family: Helvetica, sans-serif;
+    cursor: default;
 }
 
 .fblink{
@@ -85,6 +88,7 @@ body{
 
 #logoimg{
     margin-top:10px;
+    margin-bottom:10px;
     max-width: 550px;
     width: 95%;
 }
@@ -149,20 +153,20 @@ body{
 
 .internalLink{
     text-decoration:underline;
-    font-size:medium;
+    font-size:large;
     cursor:pointer;
     color:#ffc89a;
 }
 .internalLink:visited{
-    font-size:medium;
+    font-size:large;
     color:#ffc89a;
 }
 .internalLink:hover{
-    font-size:medium;
+    font-size:large;
     color:#cc5c00;
 }
 .homeBlurb{
-    font-size:medium;
+    font-size:large;
     text-align:left;
 }
 
@@ -175,4 +179,9 @@ form{
     max-width: 400px;
     border-radius: 25px;
     padding-bottom: 10px;
+}
+
+.copyright{
+    font-size: small;
+    margin: 10px;
 }

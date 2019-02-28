@@ -51,10 +51,10 @@ class Dashboard extends Component {
 		return (
 			<div id="pageHeader">
 				<div id="logo" className="companyLogo">
-				<img id="logoimg" src="resource/img/ldcontractingblack.png"/>
+				<img id="logoimg" src="resource/img/ldforestmixed.png"/>
 				
 				<div className="sloganContainer">
-				<div className="sloganText slogan">Premium Firewood Services</div><div className="divider"/><div className="sloganText slogan">Rensselaer County, New York</div>
+				<div className="sloganText slogan">Premium Firewood and Forest Products</div><div className="divider"/><div className="sloganText slogan">Rensselaer County, New York</div>
 				</div>
 				<div className="sloganText">{phone}</div>
 				</div>
@@ -68,8 +68,10 @@ class Dashboard extends Component {
 	}
 	getFooter(){
 		return <div className="footer"><div id="footerImage" style={{backgroundRepeat: "no-repeat",backgroundImage: 'url(resource/img/fire.gif)'}}/>
-			<a href="https://facebook.com/ldkiln"><img className="fblink" src='https://facebookbrand.com/wp-content/uploads/2016/05/flogo_rgb_hex-brc-site-250.png?w=40&h=40'/></a>
+			<div><a href="https://facebook.com/ldkiln"><img className="fblink" src='https://facebookbrand.com/wp-content/uploads/2016/05/flogo_rgb_hex-brc-site-250.png?w=40&h=40'/></a></div>
+			<div className="copyright">Copyright 2019 LD Forest Products. All rights reserved.</div>
 		</div>
+
 	}
 	getContent(){
 		if(this.state.view == "contact"){

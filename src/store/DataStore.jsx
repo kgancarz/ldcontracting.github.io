@@ -28,15 +28,27 @@ class DataStore extends Store
             phone:"518-470-7399",
             products:[
                 {
-                    title:"Seasoned Firewood",
+                    title:"Premium Kiln-dried Firewood",
                     description:"Premium, kiln-dried hardwood. Available year-round, kiln-dried firewood burns clean and lights easy, maximizing the heating potential of the wood!",
-                    info: "Call for Pricing.",
+                    info: "$350/cord $200/face cord, delivery within 20 miles of Grafton is free.",
+                    show:true
+                },
+                {
+                    title:"Log-Length Firewood",
+                    description:"Truck load of log length firewood.",
+                    info: "$650/load delivery within 20 miles is free.",
+                    show:true
+                },
+                {
+                    title:"Seasoned Firewood",
+                    description:"Seasoned hardwood. Call for availability.",
+                    info: "Call for Availability.",
                     show:true
                 },
                 {
                     title:"Green Firewood",
                     description:"Premium hardwood, season it yourself and save!",
-                    info: "Call for Pricing.",
+                    info: "$210/cord available year round, delivery within 20 miles is free.",
                     show:true
                 },
                 {
