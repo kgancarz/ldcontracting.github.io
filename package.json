@@ -27,7 +27,9 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "braces": "^3.0.2",
     "module": "^1.2.5",
+    "npm": "^6.9.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "reflux": "^6.4.1"
