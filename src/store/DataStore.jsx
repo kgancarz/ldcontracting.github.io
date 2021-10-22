@@ -48,7 +48,7 @@ class DataStore extends Store
                 {
                     title:"Green Firewood",
                     description:"Premium hardwood, season it yourself and save!",
-                    info: "$220/cord available year round, delivery within 15 miles is free.",
+                    info: "$240/cord available year round, delivery within 15 miles is free.",
                     show:true
                 },
                 {
