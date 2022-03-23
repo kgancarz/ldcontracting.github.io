@@ -48,13 +48,13 @@ class DataStore extends Store
                 {
                     title:"Timber Harvesting",
                     description:"Looking to make a few bucks from the renewable timber resources on your land? Call for more information!",
-                    info: "Call for more information.",
+                    info: "Call for more information",
                     show:true
                 },
                 {
                     title:"Lumber",
                     description:"",
-                    info: "Call for more information.",
+                    info: "Call for more information",
                     show:false
                 }
             ]
