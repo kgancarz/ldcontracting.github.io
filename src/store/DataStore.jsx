@@ -36,13 +36,13 @@ class DataStore extends Store
                 {
                     title:"Log-Length Firewood",
                     description:"Truck load of log length firewood.",
-                    info: "$750/load delivery within 15 miles is free.",
+                    info: "$800/load delivery within 15 miles is free.",
                     show:true
                 },
                 {
                     title:"Green Firewood",
                     description:"Premium hardwood, season it yourself and save!",
-                    info: "$250/cord available year round, delivery within 15 miles is free.",
+                    info: "$275/cord available year round, delivery within 15 miles is free.",
                     show:true
                 },
                 {
