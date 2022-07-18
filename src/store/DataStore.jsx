@@ -30,7 +30,7 @@ class DataStore extends Store
                 {
                     title:"Premium Kiln-dried Firewood",
                     description:"Premium, kiln-dried hardwood. Available year-round, kiln-dried firewood burns clean and lights easy, maximizing the heating potential of the wood!",
-                    info: "$425/cord $200/face cord, delivery within 15 miles of Grafton is free.",
+                    info: "$450/cord $225/face cord, delivery within 15 miles of Grafton is free.",
                     show:true
                 },
                 {
@@ -42,7 +42,7 @@ class DataStore extends Store
                 {
                     title:"Green Firewood",
                     description:"Premium hardwood, season it yourself and save!",
-                    info: "$275/cord available year round, delivery within 15 miles is free.",
+                    info: "$300/cord available year round, delivery within 15 miles is free.",
                     show:true
                 },
                 {
