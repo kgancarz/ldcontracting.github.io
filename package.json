@@ -5,7 +5,7 @@
   "main": "main.jsx",
   "scripts": {
     "test": "echo \"test specified\"",
-    "build": "npm build . && bash -c NODE_OPTIONS=--openssl-legacy-provider npm run webpack",
+    "build": "npm build . && npm run webpack",
     "webpack": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode=production --config webpack.config.js",
     "builddev": "npm build . && npm run webpackdev",
     "webpackdev": "webpack --mode=development --config webpack.dev.config.js"
